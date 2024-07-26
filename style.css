@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.logo{
+  height: 50px;
+  border-radius: 50%;
+}
 .nav-section {
 background-color: #FF7F7F !important;
 min-height: 85px !important;
@@ -16,9 +21,8 @@ min-height: 85px !important;
     border-bottom: 10px solid #FFEAEB;
 }
 .home-container {
-    margin: 0 !important;
     width: 100%;
-    padding: 0 0 0 0 !important;
+    margin-top: 0px !important;
   }
   
   .home-text {
@@ -37,7 +41,19 @@ min-height: 85px !important;
     margin-right: auto;
   }
 
-  .services, .courses, .categories, .testimonials{
+.service-icon{
+  padding-top: 20px;
+}
+
+.services-container, .courses-container-1, .courses-container-2, .categories-container{
+margin-left: 60px;
+}
+
+.services-card, .courses-card, .categories-card{
+  margin-bottom: 20px;
+}
+
+  .services-content-container, .courses-content-container, .categories-content-container, .testimonials{
     margin-top: 50px;
     margin-left: 60px;
     margin-right: 60px;
